@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	This was exceedingly helpful to debug code. First, the diff program looked through all lines of code in both files and found 	the discrepancies. This is helpful in that it saves loads of time for me so I don't have to manually go through each line of 	code and find the error. Also, this removes the margin of human error as the computer is much more through at locating 	discrepancies than my human eyes are. Secondly, the diff program lists the discrepancies out comparing each file, and puts a "-" 	if the line exsisted in the old file but not the new and a "+" if the line is in the new file but not the old. This allows me to 	look at each line and compare more throughly than looking at two separate documents.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	This is helpful because it makes it that much easier to locate the potential bugs that occur when you change code. This will 	show you versions of when the code was working properly and when it stopped functioning properly, thus you are able to debug 	with much more accuracy and speed.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros are that the versions make more logical sense, there won't be too many versions of a document
+	Cons are that it leaves room for human error and the person may commit too big versions of a document
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Probably because they were developed with different tasks in mind. While Git is used for code, Goggle Docs is used for a wide 	varity of different tasks.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log shows you all the different commits that you have submitted. git diff displays the differences between the two commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+	This makes me more confident because if I do break something, I can find the error easier and be able to fix it faster. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to use it for any code that I will have many iterations of, so basically everything!
+	
+
+	
+
